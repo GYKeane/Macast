@@ -14,7 +14,7 @@ else:
     from PIL import Image
 
 logger = logging.getLogger("gui")
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 
 
 class Platform(Enum):

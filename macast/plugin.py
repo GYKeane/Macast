@@ -11,6 +11,7 @@ from .ssdp import SSDPServer
 from .utils import Setting
 
 logger = logging.getLogger("PLUGIN")
+logger.setLevel(logging.DEBUG)
 
 
 class RendererPlugin(plugins.SimplePlugin):
